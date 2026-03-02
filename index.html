@@ -37,6 +37,12 @@
 <body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
     <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
         <div class="layout-container flex h-full grow flex-col">
+            <header class="w-full flex justify-end p-4 absolute top-0 right-0 z-50">
+                <div class="flex items-center gap-1 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md p-1 rounded-full border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <button onclick="changeLanguage('en')" id="lang-btn-en" class="px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">EN</button>
+                    <button onclick="changeLanguage('es')" id="lang-btn-es" class="px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">ES</button>
+                </div>
+            </header>
             <!-- Navigation Bar Removed -->
             <main class="flex flex-1 flex-col items-center">
                 <div class="layout-content-container flex flex-col max-w-[1200px] w-full px-6 md:px-10 lg:px-20">
@@ -47,10 +53,11 @@
                                 <div class="flex flex-col gap-4 text-left">
                                     <h1
                                         class="text-slate-900 dark:text-slate-100 text-5xl font-black leading-[1.1] tracking-[-0.033em] md:text-6xl lg:text-7xl">
-                                        Hello, I'm Adrián Rodríguez, a <span class="text-primary">Computer Engineering
+                                        <span id="hero-title">Hello, I'm Adrián Rodríguez, a </span><span id="hero-subtitle" class="text-primary">Computer Engineering
                                             Student</span>
                                     </h1>
                                     <p
+                                        id="hero-desc"
                                         class="text-slate-600 dark:text-slate-400 text-lg font-normal leading-relaxed max-w-[600px]">
                                         I am a Computer Engineering student with strong programming skills. I bring
                                         experience in Robotics and a deep interest in Cybersecurity.
@@ -59,12 +66,12 @@
                                 <div class="flex flex-wrap gap-4">
                                     <button onclick="window.location.href='cv.html'"
                                         class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-6 bg-primary text-slate-900 text-base font-bold leading-normal tracking-[0.015em] shadow-lg shadow-primary/20 hover:scale-[1.02] transition-transform">
-                                        <span class="truncate">View CV</span>
+                                        <span id="btn-view-cv" class="truncate">View CV</span>
                                     </button>
                                     <button
                                         onclick="window.open('https://www.linkedin.com/in/adrianrodrigueziban/', '_blank')"
                                         class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-6 border-2 border-primary/20 bg-transparent text-slate-900 dark:text-slate-100 text-base font-bold leading-normal hover:bg-primary/5 transition-colors">
-                                        <span class="truncate">Contact</span>
+                                        <span id="btn-contact" class="truncate">Contact</span>
                                     </button>
                                 </div>
                             </div>
@@ -82,12 +89,13 @@
                         <div class="flex flex-col md:flex-row gap-12 items-start">
                             <div class="md:w-1/3">
                                 <h2
+                                    id="about-title"
                                     class="text-slate-900 dark:text-slate-100 text-3xl font-bold leading-tight tracking-[-0.015em]">
                                     About Me</h2>
                                 <div class="h-1 w-12 bg-primary mt-4 rounded-full"></div>
                             </div>
                             <div class="md:w-2/3">
-                                <p class="text-slate-600 dark:text-slate-400 text-lg font-normal leading-relaxed">
+                                <p id="about-desc" class="text-slate-600 dark:text-slate-400 text-lg font-normal leading-relaxed">
                                     I am a Computer Engineering student with strong programming skills in the University
                                     of Oviedo. I bring experience in Robotics and a deep interest in Cybersecurity,
                                     seeking to contribute my technical abilities and analytical mindset in a setting
@@ -97,6 +105,7 @@
                                     <div class="flex flex-col gap-2">
                                         <span class="text-primary font-bold text-2xl">3+</span>
                                         <span
+                                            id="stat-years"
                                             class="text-sm font-medium text-slate-500 uppercase tracking-tighter">Years
                                             Experience</span>
                                     </div>
@@ -108,10 +117,11 @@
                     <section class="py-16">
                         <div class="flex items-center justify-between mb-12">
                             <h3
+                                id="exp-title"
                                 class="text-slate-900 dark:text-slate-100 text-3xl font-bold leading-tight tracking-[-0.015em]">
                                 Experience &amp; Projects</h3>
                             <a class="text-primary font-bold flex items-center gap-2 group" href="cv.html">
-                                View Full CV <span
+                                <span id="link-view-full">View Full CV</span> <span
                                     class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
                             </a>
                         </div>
@@ -124,8 +134,8 @@
                                 </div>
                                 <div class="flex flex-col gap-1">
                                     <span class="text-primary text-sm font-bold tracking-wide uppercase">4SPACE</span>
-                                    <h4 class="text-xl font-bold">Space Rover Project</h4>
-                                    <p class="text-slate-500 text-sm line-clamp-3">After participating in the drone
+                                    <h4 id="proj1-title" class="text-xl font-bold">Space Rover Project</h4>
+                                    <p id="proj1-desc" class="text-slate-500 text-sm line-clamp-3">After participating in the drone
                                         workshops, I actively collaborated in designing and developing a space rover as
                                         a team project in the Technology Department.</p>
                                 </div>
@@ -142,8 +152,8 @@
                                 <div class="flex flex-col gap-1">
                                     <span class="text-primary text-sm font-bold tracking-wide uppercase">Polytechnic
                                         School of Engineering of Gijón</span>
-                                    <h4 class="text-xl font-bold">Technical Support Intern</h4>
-                                    <p class="text-slate-500 text-sm line-clamp-3">Support in managing and maintaining
+                                    <h4 id="proj2-title" class="text-xl font-bold">Technical Support Intern</h4>
+                                    <p id="proj2-desc" class="text-slate-500 text-sm line-clamp-3">Support in managing and maintaining
                                         the technology infrastructure to ensure users' daily operations.</p>
                                 </div>
                             </div>
@@ -157,19 +167,12 @@
                     <div class="flex items-center gap-2">
                         <span class="font-bold">Adrián Rodríguez</span>
                     </div>
-                    <p class="text-slate-500 text-sm">© 2024 Adrián Rodríguez. All rights reserved.</p>
-                    <div class="flex gap-6">
-                        <a class="text-slate-400 hover:text-primary" href="#"><span
-                                class="material-symbols-outlined">public</span></a>
-                        <a class="text-slate-400 hover:text-primary" href="#"><span
-                                class="material-symbols-outlined">alternate_email</span></a>
-                        <a class="text-slate-400 hover:text-primary" href="#"><span
-                                class="material-symbols-outlined">share</span></a>
-                    </div>
+                    <p id="footer-text" class="text-slate-500 text-sm">© 2024 Adrián Rodríguez. All rights reserved.</p>
                 </div>
             </footer>
         </div>
     </div>
+    <script src="assets/js/translations.js"></script>
 </body>
 
 </html>

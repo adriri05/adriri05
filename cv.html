@@ -44,14 +44,18 @@
                 <div class="bg-primary p-2 rounded-lg flex items-center justify-center">
                     <span class="material-symbols-outlined text-white">description</span>
                 </div>
-                <h2 class="text-xl font-bold tracking-tight">Curriculum Vitae</h2>
+                <h2 id="cv-header" class="text-xl font-bold tracking-tight">Curriculum Vitae</h2>
             </div>
-            <div class="flex gap-3">
+            <div class="flex gap-3 items-center">
+                <div class="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-full">
+                    <button onclick="changeLanguage('en')" id="lang-btn-en" class="px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">EN</button>
+                    <button onclick="changeLanguage('es')" id="lang-btn-es" class="px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">ES</button>
+                </div>
                 <a href="index.html"
                     class="flex items-center justify-center rounded-lg h-10 bg-slate-100 dark:bg-slate-800 hover:bg-primary/20 transition-colors px-4 gap-2 text-sm font-bold text-slate-900 dark:text-white"
                     style="text-decoration: none;">
                     <span class="material-symbols-outlined text-lg">home</span>
-                    <span class="hidden sm:inline">Back to Home</span>
+                    <span id="cv-back-home" class="hidden sm:inline">Back to Home</span>
                 </a>
 
             </div>
@@ -69,7 +73,7 @@
                     <div>
                         <h1 class="text-2xl font-extrabold text-slate-900 dark:text-white uppercase tracking-tight">
                             Adrián Rodríguez</h1>
-                        <p class="text-primary font-semibold text-lg">Computer Engineering Student</p>
+                        <p id="cv-role" class="text-primary font-semibold text-lg">Computer Engineering Student</p>
                     </div>
                     <!-- Contact Info -->
                     <div class="w-full space-y-4 pt-4">
@@ -84,38 +88,55 @@
                                 class="text-sm hover:text-primary transition-colors">linkedin.com/in/adrianrodrigueziban/</a>
                         </div>
                     </div>
-                    <!-- Skills Section -->
+                    <!-- Hard Skills Section -->
                     <div class="w-full pt-8">
                         <h3
+                            id="cv-hard-skills-title"
                             class="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-white mb-4 border-b-2 border-primary w-fit">
-                            Skills</h3>
+                            Hard Skills</h3>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Teamwork</span>
-                            <span
-                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Proactivity</span>
-                            <span
-                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Problem Solving</span>
-                            <span
+                                id="cv-skills-4"
                                 class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Programming</span>
                             <span
+                                id="cv-skills-5"
                                 class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">IT Support</span>
                             <span
+                                id="cv-skills-6"
                                 class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Basic Electronics</span>
+                        </div>
+                    </div>
+                    <!-- Soft Skills Section -->
+                    <div class="w-full pt-8">
+                        <h3
+                            id="cv-soft-skills-title"
+                            class="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-white mb-4 border-b-2 border-primary w-fit">
+                            Soft Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                id="cv-skills-1"
+                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Teamwork</span>
+                            <span
+                                id="cv-skills-2"
+                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Proactivity</span>
+                            <span
+                                id="cv-skills-3"
+                                class="px-3 py-1 bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-full text-xs font-medium">Problem Solving</span>
                         </div>
                     </div>
                     <!-- Languages Section -->
                     <div class="w-full pt-8">
                         <h3
+                            id="cv-languages-title"
                             class="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-white mb-4 border-b-2 border-primary w-fit">
                             Languages</h3>
                         <div class="space-y-2">
                             <div class="flex justify-between">
-                                <span class="text-sm font-medium text-slate-900 dark:text-white">Spanish</span>
-                                <span class="text-xs text-slate-500">Native</span>
+                                <span id="cv-lang-spanish" class="text-sm font-medium text-slate-900 dark:text-white">Spanish</span>
+                                <span id="cv-lang-native" class="text-xs text-slate-500">Native</span>
                             </div>
                             <div class="flex justify-between">
-                                <span class="text-sm font-medium text-slate-900 dark:text-white">English</span>
+                                <span id="cv-lang-english" class="text-sm font-medium text-slate-900 dark:text-white">English</span>
                             </div>
                         </div>
                     </div>
@@ -127,9 +148,9 @@
                 <section class="mb-10">
                     <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
                         <span class="material-symbols-outlined text-primary">person</span>
-                        ABOUT ME
+                        <span id="cv-about-title">ABOUT ME</span>
                     </h2>
-                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    <p id="cv-about-text" class="text-slate-600 dark:text-slate-400 leading-relaxed">
                         I am a Computer Engineering student with strong programming skills. I bring experience in Robotics and a deep interest in Cybersecurity, seeking to contribute my technical abilities and analytical mindset in a setting that supports ongoing growth.
                     </p>
                 </section>
@@ -138,7 +159,7 @@
                 <section class="mb-10">
                     <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
                         <span class="material-symbols-outlined text-primary">work</span>
-                        WORK EXPERIENCE
+                        <span id="cv-work-title">WORK EXPERIENCE</span>
                     </h2>
                     <div
                         class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 md:before:left-5 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 dark:before:via-slate-700 before:to-transparent">
@@ -152,13 +173,13 @@
                             <div
                                 class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 class="font-bold text-slate-900 dark:text-white">Technology Department</h4>
+                                    <h4 id="cv-work-1-role" class="font-bold text-slate-900 dark:text-white">Technology Department</h4>
                                     <span
-                                        class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2023 - 2026</span>
+                                        id="cv-work-1-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2023 - 2026</span>
                                 </div>
-                                <p class="text-sm font-medium text-slate-500 mb-3">4SPACE</p>
+                                <p id="cv-work-1-place" class="text-sm font-medium text-slate-500 mb-3">4SPACE</p>
                                 <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc pl-4">
-                                    <li>After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project.</li>
+                                    <li id="cv-work-1-desc">After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project.</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,13 +193,13 @@
                             <div
                                 class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 class="font-bold text-slate-900 dark:text-white">Technical Support Intern</h4>
+                                    <h4 id="cv-work-2-role" class="font-bold text-slate-900 dark:text-white">Technical Support Intern</h4>
                                     <span
-                                        class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2025 - PRESENT</span>
+                                        id="cv-work-2-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2025 - PRESENT</span>
                                 </div>
-                                <p class="text-sm font-medium text-slate-500 mb-3">POLYTECHNIC SCHOOL OF ENGINEERING OF GIJÓN</p>
+                                <p id="cv-work-2-place" class="text-sm font-medium text-slate-500 mb-3">POLYTECHNIC SCHOOL OF ENGINEERING OF GIJÓN</p>
                                 <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc pl-4">
-                                    <li>Support in managing and maintaining the technology infrastructure to ensure users' daily operations.</li>
+                                    <li id="cv-work-2-desc">Support in managing and maintaining the technology infrastructure to ensure users' daily operations.</li>
                                 </ul>
                             </div>
                         </div>
@@ -189,7 +210,7 @@
                 <section class="mb-10">
                     <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
                         <span class="material-symbols-outlined text-primary">school</span>
-                        EDUCATION
+                        <span id="cv-edu-title">EDUCATION</span>
                     </h2>
                     <div
                         class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 md:before:left-5 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 dark:before:via-slate-700 before:to-transparent">
@@ -203,11 +224,11 @@
                             <div
                                 class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 class="font-bold text-slate-900 dark:text-white">Technological Baccalaureate</h4>
+                                    <h4 id="cv-edu-1-role" class="font-bold text-slate-900 dark:text-white">Technological Baccalaureate</h4>
                                     <span
-                                        class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2021 - 2023</span>
+                                        id="cv-edu-1-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2021 - 2023</span>
                                 </div>
-                                <p class="text-sm font-medium text-slate-500 mb-3">I.E.S. CALDERÓN DE LA BARCA</p>
+                                <p id="cv-edu-1-place" class="text-sm font-medium text-slate-500 mb-3">I.E.S. CALDERÓN DE LA BARCA</p>
                             </div>
                         </div>
 
@@ -220,11 +241,11 @@
                             <div
                                 class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 class="font-bold text-slate-900 dark:text-white">Computer Engineering in Information Technologies</h4>
+                                    <h4 id="cv-edu-2-role" class="font-bold text-slate-900 dark:text-white">Computer Engineering in Information Technologies</h4>
                                     <span
-                                        class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2023 – PRESENT</span>
+                                        id="cv-edu-2-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2023 – PRESENT</span>
                                 </div>
-                                <p class="text-sm font-medium text-slate-500 mb-3">UNIVERSITY OF OVIEDO</p>
+                                <p id="cv-edu-2-place" class="text-sm font-medium text-slate-500 mb-3">UNIVERSITY OF OVIEDO</p>
                             </div>
                         </div>
                     </div>
@@ -234,10 +255,11 @@
         <!-- Footer -->
         <footer
             class="dark:bg-slate-800/80 px-12 py-6 border-t border-slate-100 dark:border-slate-800 text-center bg-slate-900">
-            <p class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Adrián Rodríguez • Software
+            <p id="cv-footer" class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Adrián Rodríguez • Software
                 Developer • 2024</p>
         </footer>
     </div>
+    <script src="assets/js/translations.js"></script>
 </body>
 
 </html>
