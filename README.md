@@ -1,6 +1,35 @@
+<div align="center">
+<a href="#english">🇺🇸 English</a> | 
+<a href="#español">🇪🇸 Español</a> 
+</div>
+
+<br>
+
+<div id="english"></div>
+
+# 👋 Hello, I'm Adrián
+
+### 🚀 Computer Engineering Student
+
+Welcome to my GitHub profile! Here you will find my personal projects, contributions, and experiments with new technologies.
+
+---
+
+### 🧐 About Me
+
+- 🔭 I’m currently working on **interesting projects**
+- 🌱 I enjoy learning new things
+- 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/in/adrianrodrigueziban/)**
+
+---
+<br>
+<br>
+
+<div id="español"></div>
+
 # 👋 Hola, soy Adrián
 
-### 🚀 Estudiante de Ingnieria Informática
+### 🚀 Estudiante de Ingeniería Informática
 
 ¡Bienvenido a mi perfil de GitHub! Aquí encontrarás mis proyectos personales, contribuciones y experimentos con nuevas tecnologías.
 
@@ -11,14 +40,5 @@
 - 🔭 Actualmente estoy trabajando en **proyectos interesantes**
 - 🌱 Disfruto aprendiendo cosas nuevas
 - 📫 Cómo contactarme: **[LinkedIn](https://www.linkedin.com/in/adrianrodrigueziban/)**
-
----
-
-### 📊 Mis Estadísticas de GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adriri05&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de Adri" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adriri05&layout=compact&theme=radical&hide_border=true" alt="Lenguajes más usados" />
-</div>
 
 ---
