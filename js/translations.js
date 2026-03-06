@@ -11,8 +11,10 @@ const translations = {
         "stat-years": "Years Experience",
         "exp-title": "Experience & Projects",
         "link-view-full": "View Full CV",
-        "proj1-title": "Space Rover Project",
+        "proj1-category": "Experience",
+        "proj1-title": "4Space",
         "proj1-desc": "After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project in the Technology Department.",
+        "proj2-category": "Experience",
         "proj2-title": "Technical Support Intern",
         "proj2-desc": "Support in managing and maintaining the technology infrastructure to ensure users' daily operations.",
         "footer-text": "© 2024 Adrián Rodríguez. All rights reserved.",
@@ -20,6 +22,7 @@ const translations = {
         // CV Page
         "cv-header": "Curriculum Vitae",
         "cv-back-home": "Back to Home",
+        "back-home": "Back to Home",
         "cv-role": "Computer Engineering Student",
         "cv-hard-skills-title": "Hard Skills",
         "cv-soft-skills-title": "Soft Skills",
@@ -51,7 +54,33 @@ const translations = {
         "cv-edu-2-role": "Computer Engineering in Information Technologies",
         "cv-edu-2-date": "2023 - PRESENT",
         "cv-edu-2-place": "UNIVERSITY OF OVIEDO",
-        "cv-footer": "Adrián Rodríguez • Software Developer • 2024"
+        "cv-footer": "Adrián Rodríguez • Software Developer • 2024",
+
+        // Categories
+        "category-experience": "Experience",
+        "category-project": "Project",
+
+        // Project Pages - Space Rover
+        "project-rover-title": "4Space",
+        "project-about-title": "About the Project",
+        "project-rover-full-desc": "After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project in the Technology Department. This initiative aimed to simulate planetary exploration challenges, requiring robust mechanical design and autonomous navigation capabilities.",
+        "project-progress-title": "Progress Updates",
+        "progress-heading": "Progress Updates",
+        "rover-update-date-1": "January 2026",
+        "rover-update-1-title": "Leaving 4Space",
+        "rover-update-1-desc": "I leave 4Space due to a lack of time and to avoid negatively affecting the team's progress.",
+        "rover-update-date-2": "August 2025",
+        "rover-update-2-title": "Competing in Poland",
+        "rover-update-2-desc": "We competed in Poland, taking with us a great experience and the desire to keep growing in our second year of the project.",
+        "rover-update-date-3": "June 2025",
+        "rover-update-3-title": "ERC Qualification",
+        "rover-update-3-desc": "After months of hard work, we successfully qualified as the third best team in the world and the best Spanish team to compete in Poland.",
+        "rover-update-date-4": "September 2024",
+        "rover-update-4-title": "Project Presentation",
+        "rover-update-4-desc": "We are introduced to the Mars rover creation project and the opportunity to participate in the European Rover Challenge.",
+        "rover-update-date-5": "September 2023",
+        "rover-update-5-title": "Drone Workshops",
+        "rover-update-5-desc": "First year participating in the tenth drone workshops, where we started learning basic electronics in what used to be Drone4Students."
     },
     "es": {
         // Index Page
@@ -65,8 +94,10 @@ const translations = {
         "stat-years": "Años de experiencia",
         "exp-title": "Experiencia y Proyectos",
         "link-view-full": "Ver CV Completo",
-        "proj1-title": "Space Rover Project",
+        "proj1-category": "Experiencia",
+        "proj1-title": "4Space",
         "proj1-desc": "Después de participar en los talleres de drones, colaboré activamente en el diseño y desarrollo de un rover espacial como proyecto en equipo en el Departamento de Tecnología.",
+        "proj2-category": "Experiencia",
         "proj2-title": "Becario de Soporte Técnico",
         "proj2-desc": "Apoyo en la gestión y mantenimiento de la infraestructura tecnológica para garantizar las operaciones diarias de los usuarios.",
         "footer-text": "© 2024 Adrián Rodríguez. Todos los derechos reservados.",
@@ -74,6 +105,7 @@ const translations = {
         // CV Page
         "cv-header": "Curriculum Vitae",
         "cv-back-home": "Volver al Inicio",
+        "back-home": "Volver al Inicio",
         "cv-role": "Estudiante de Ingeniería Informática",
         "cv-hard-skills-title": "Habilidades Técnicas",
         "cv-soft-skills-title": "Habilidades Blandas",
@@ -105,7 +137,33 @@ const translations = {
         "cv-edu-2-role": "Ingeniería Informática en Tecnologías de la Información",
         "cv-edu-2-date": "2023 - ACTUALIDAD",
         "cv-edu-2-place": "UNIVERSIDAD DE OVIEDO",
-        "cv-footer": "Adrián Rodríguez • Desarrollador de Software • 2024"
+        "cv-footer": "Adrián Rodríguez • Desarrollador de Software • 2024",
+
+        // Categories
+        "category-experience": "Experiencia",
+        "category-project": "Proyecto",
+
+        // Páginas de Proyecto - Space Rover
+        "project-rover-title": "4Space",
+        "project-about-title": "Sobre el Proyecto",
+        "project-rover-full-desc": "Tras participar en los talleres de drones, colaboré activamente en el diseño y desarrollo de un rover espacial como proyecto en equipo en el Departamento de Tecnología. Esta iniciativa tenía como objetivo simular los retos de la exploración planetaria, requiriendo un diseño mecánico robusto y capacidades de navegación autónoma.",
+        "project-progress-title": "Actualizaciones de Progreso",
+        "progress-heading": "Actualizaciones de Progreso",
+        "rover-update-date-1": "Enero 2026",
+        "rover-update-1-title": "Dejo 4Space",
+        "rover-update-1-desc": "Dejo 4Space por falta de tiempo y para no perjudicar al equipo.",
+        "rover-update-date-2": "Agosto 2025",
+        "rover-update-2-title": "Competición en Polonia",
+        "rover-update-2-desc": "Competimos en Polonia llevando con nosotros una gran experiencia y ganas de seguir creciendo en el segundo año del proyecto.",
+        "rover-update-date-3": "Junio 2025",
+        "rover-update-3-title": "Clasificación ERC",
+        "rover-update-3-desc": "Después de duros meses de trabajo conseguimos clasificar como el tercer mejor equipo del mundo y el mejor español para ir a competir a Polonia.",
+        "rover-update-date-4": "Septiembre 2024",
+        "rover-update-4-title": "Presentación del Proyecto",
+        "rover-update-4-desc": "Nos presentan el proyecto de la creación de un rover marciano y la posibilidad de participar en el European Rover Challenge.",
+        "rover-update-date-5": "Septiembre 2023",
+        "rover-update-5-title": "Jornadas de drones",
+        "rover-update-5-desc": "Primer año donde participa en la decima jornadas de dones y empezamos a aprender electronica básica en lo que antes era Drone4Students."
     }
 };
 
@@ -157,4 +215,34 @@ function updateLanguageButtons(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('preferredLanguage') || 'en';
     changeLanguage(savedLang);
+
+    // Load preferred theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        document.documentElement.classList.remove('dark');
+    } else {
+        document.documentElement.classList.add('dark');
+    }
+    updateThemeIcon();
 });
+
+function toggleTheme() {
+    const html = document.documentElement;
+    const isDark = html.classList.contains('dark');
+    if (isDark) {
+        html.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+    } else {
+        html.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    updateThemeIcon();
+}
+
+function updateThemeIcon() {
+    const icon = document.getElementById('theme-icon');
+    if (icon) {
+        const isDark = document.documentElement.classList.contains('dark');
+        icon.textContent = isDark ? 'light_mode' : 'dark_mode';
+    }
+}

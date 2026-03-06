@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#25aff4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#102022",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <title>4Space - Adrián Rodríguez</title>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+    
+    <!-- Navigation -->
+    <header class="w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-[1200px] mx-auto px-6 md:px-10 lg:px-20 py-4 flex justify-between items-center">
+            <a href="../index.html" class="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors font-medium group">
+                <span class="material-symbols-outlined text-xl group-hover:-translate-x-1 transition-transform">arrow_back</span>
+                <span id="back-home">Back to Home</span>
+            </a>
+            
+            <div class="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-full border border-slate-200 dark:border-slate-700">
+                <button onclick="changeLanguage('en')" id="lang-btn-en" class="px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 bg-primary text-white shadow-sm">EN</button>
+                <button onclick="changeLanguage('es')" id="lang-btn-es" class="px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white bg-transparent">ES</button>
+                <div class="w-px h-4 bg-slate-300 dark:bg-slate-700 mx-1"></div>
+                <button onclick="toggleTheme()" class="px-2 py-1.5 rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-white transition-all duration-200 flex items-center justify-center">
+                    <span id="theme-icon" class="material-symbols-outlined text-[20px]">light_mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow w-full max-w-[900px] mx-auto px-6 md:px-10 py-12">
+        
+        <!-- Project Header -->
+        <div class="mb-12">
+            <div class="flex flex-col gap-2 mb-6">
+                <!-- Project Category -->
+                <span id="category-experience" class="text-primary font-bold tracking-wide uppercase text-sm">Experience</span>
+                <h1 id="project-rover-title" class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">4Space</h1>
+            </div>
+            
+            <div class="w-full aspect-video rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 shadow-xl mb-8">
+                <img src="../assets/4s.jpg" alt="4Space" class="w-full h-full object-cover">
+            </div>
+
+            <div class="prose dark:prose-invert max-w-none">
+                <h2 id="project-about-title" class="text-2xl font-bold mb-4 text-slate-900 dark:text-white">About the Project</h2>
+                <p id="project-rover-full-desc" class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                    After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project in the Technology Department. This initiative aimed to simulate planetary exploration challenges, requiring robust mechanical design and autonomous navigation capabilities.
+                </p>
+            </div>
+        </div>
+
+        <!-- Progress Section -->
+        <div class="border-t border-slate-200 dark:border-slate-800 pt-12">
+            <h2 id="project-progress-title" class="text-2xl font-bold mb-8 flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary">timeline</span>
+                <span id="progress-heading">Progress Updates</span>
+            </h2>
+
+            <div class="relative pl-8 border-l-2 border-slate-200 dark:border-slate-700 space-y-12">
+                
+                <!-- Update 5 -->
+                 <div class="relative group">
+                    <div class="absolute -left-[41px] top-0 p-1 bg-background-light dark:bg-background-dark group-hover:scale-110 transition-transform">
+                        <div class="w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-slate-200 dark:ring-slate-700"></div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span id="rover-update-date-5" class="text-xs font-bold text-slate-500 uppercase tracking-wider">September 2023</span>
+                        <h3 id="rover-update-5-title" class="text-xl font-bold text-slate-900 dark:text-white">Drone Workshops</h3>
+                        <p id="rover-update-5-desc" class="text-slate-600 dark:text-slate-400">
+                            First year participating in the tenth drone workshops, where we started learning basic electronics in what used to be Drone4Students.
+                        </p>
+                    </div>
+                </div>
+
+                 <!-- Update 4 -->
+                 <div class="relative group">
+                    <div class="absolute -left-[41px] top-0 p-1 bg-background-light dark:bg-background-dark group-hover:scale-110 transition-transform">
+                        <div class="w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-slate-200 dark:ring-slate-700"></div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span id="rover-update-date-4" class="text-xs font-bold text-slate-500 uppercase tracking-wider">September 2024</span>
+                        <h3 id="rover-update-4-title" class="text-xl font-bold text-slate-900 dark:text-white">Project Presentation</h3>
+                        <p id="rover-update-4-desc" class="text-slate-600 dark:text-slate-400">
+                            We are introduced to the Mars rover creation project and the opportunity to participate in the European Rover Challenge.
+                        </p>
+                    </div>
+                </div>
+
+                 <!-- Update 3 -->
+                 <div class="relative group">
+                    <div class="absolute -left-[41px] top-0 p-1 bg-background-light dark:bg-background-dark group-hover:scale-110 transition-transform">
+                        <div class="w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-slate-200 dark:ring-slate-700"></div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span id="rover-update-date-3" class="text-xs font-bold text-slate-500 uppercase tracking-wider">June 2025</span>
+                        <h3 id="rover-update-3-title" class="text-xl font-bold text-slate-900 dark:text-white">ERC Qualification</h3>
+                        <p id="rover-update-3-desc" class="text-slate-600 dark:text-slate-400">
+                            After months of hard work, we successfully qualified as the third best team in the world and the best Spanish team to compete in Poland.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Update 2 -->
+                <div class="relative group">
+                    <div class="absolute -left-[41px] top-0 p-1 bg-background-light dark:bg-background-dark group-hover:scale-110 transition-transform">
+                        <div class="w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-slate-200 dark:ring-slate-700"></div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span id="rover-update-date-2" class="text-xs font-bold text-slate-500 uppercase tracking-wider">August 2025</span>
+                        <h3 id="rover-update-2-title" class="text-xl font-bold text-slate-900 dark:text-white">Competing in Poland</h3>
+                        <p id="rover-update-2-desc" class="text-slate-600 dark:text-slate-400">
+                            We competed in Poland, taking with us a great experience and the desire to keep growing in our second year of the project.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Update 1 -->
+                <div class="relative group">
+                    <!-- Hide the trailing line -->
+                    <div class="absolute -left-[35px] top-6 w-[4px] h-[150%] bg-background-light dark:bg-background-dark"></div>
+                    <div class="absolute -left-[41px] top-0 p-1 bg-background-light dark:bg-background-dark group-hover:scale-110 transition-transform">
+                        <div class="w-4 h-4 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span id="rover-update-date-1" class="text-xs font-bold text-primary uppercase tracking-wider">January 2026</span>
+                        <h3 id="rover-update-1-title" class="text-xl font-bold text-slate-900 dark:text-white">Leaving 4Space</h3>
+                        <p id="rover-update-1-desc" class="text-slate-600 dark:text-slate-400">
+                           I leave 4Space due to a lack of time and to avoid negatively affecting the team's progress.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark">
+        <div class="max-w-[1200px] mx-auto text-center">
+             <p id="footer-text" class="text-slate-500 text-sm">© 2024 Adrián Rodríguez. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/translations.js"></script>
+</body>
+
+</html>
+
+

@@ -41,7 +41,12 @@
                 <div class="flex items-center gap-1 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md p-1 rounded-full border border-slate-200 dark:border-slate-800 shadow-sm">
                     <button onclick="changeLanguage('en')" id="lang-btn-en" class="px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">EN</button>
                     <button onclick="changeLanguage('es')" id="lang-btn-es" class="px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 text-slate-500 hover:text-slate-900 dark:hover:text-white">ES</button>
-                </div>
+                
+                        <div class="w-px h-4 bg-slate-300 dark:bg-slate-700 mx-1"></div>
+                        <button onclick="toggleTheme()" class="px-2 py-1.5 rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-white transition-all duration-200 flex items-center justify-center">
+                            <span id="theme-icon" class="material-symbols-outlined text-[20px]">light_mode</span>
+                        </button>
+                    </div>
             </header>
             <!-- Navigation Bar Removed -->
             <main class="flex flex-1 flex-col items-center">
@@ -64,7 +69,7 @@
                                     </p>
                                 </div>
                                 <div class="flex flex-wrap gap-4">
-                                    <button onclick="window.location.href='cv.html'"
+                                    <button onclick="window.location.href='html/cv.html'"
                                         class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-6 bg-primary text-slate-900 text-base font-bold leading-normal tracking-[0.015em] shadow-lg shadow-primary/20 hover:scale-[1.02] transition-transform">
                                         <span id="btn-view-cv" class="truncate">View CV</span>
                                     </button>
@@ -120,26 +125,26 @@
                                 id="exp-title"
                                 class="text-slate-900 dark:text-slate-100 text-3xl font-bold leading-tight tracking-[-0.015em]">
                                 Experience &amp; Projects</h3>
-                            <a class="text-primary font-bold flex items-center gap-2 group" href="cv.html">
+                            <a class="text-primary font-bold flex items-center gap-2 group" href="html/cv.html">
                                 <span id="link-view-full">View Full CV</span> <span
                                     class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
                             </a>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <!-- Project Card 1 -->
-                            <div class="group flex flex-col gap-4">
+                            <a href="html/4space.html" class="group flex flex-col gap-4 block hover:opacity-95 transition-opacity">
                                 <div
                                     class="h-64 rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 relative">
-                                    <img src="assets/4s.jpg" alt="Space Rover Project" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    <img src="assets/4s.jpg" alt="4Space" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col gap-1">
-                                    <span class="text-primary text-sm font-bold tracking-wide uppercase">4SPACE</span>
-                                    <h4 id="proj1-title" class="text-xl font-bold">Space Rover Project</h4>
+                                    <span id="proj1-category" class="text-primary text-sm font-bold tracking-wide uppercase">Experience</span>
+                                    <h4 id="proj1-title" class="text-xl font-bold">4Space</h4>
                                     <p id="proj1-desc" class="text-slate-500 text-sm line-clamp-3">After participating in the drone
                                         workshops, I actively collaborated in designing and developing a space rover as
                                         a team project in the Technology Department.</p>
                                 </div>
-                            </div>
+                            </a>
                             <!-- Project Card 2 -->
                             <div class="group flex flex-col gap-4">
                                 <div
@@ -150,9 +155,9 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-1">
-                                    <span class="text-primary text-sm font-bold tracking-wide uppercase">Polytechnic
-                                        School of Engineering of Gijón</span>
+                                    <span id="proj2-category" class="text-primary text-sm font-bold tracking-wide uppercase">Experience</span>
                                     <h4 id="proj2-title" class="text-xl font-bold">Technical Support Intern</h4>
+                                    <span class="text-slate-600 dark:text-slate-400 text-xs font-semibold mb-1">Polytechnic School of Engineering of Gijón</span>
                                     <p id="proj2-desc" class="text-slate-500 text-sm line-clamp-3">Support in managing and maintaining
                                         the technology infrastructure to ensure users' daily operations.</p>
                                 </div>
@@ -162,7 +167,7 @@
                 </div>
             </main>
             <!-- Footer -->
-            <footer class="mt-auto py-12 px-6 border-t border-primary/10 bg-background-dark">
+            <footer class="mt-auto py-12 px-6 border-t border-primary/10 bg-white dark:bg-background-dark">
                 <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
                     <div class="flex items-center gap-2">
                         <span class="font-bold">Adrián Rodríguez</span>
@@ -172,7 +177,9 @@
             </footer>
         </div>
     </div>
-    <script src="assets/js/translations.js"></script>
+    <script src="js/translations.js"></script>
 </body>
 
 </html>
+
+
