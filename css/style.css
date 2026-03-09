@@ -150,11 +150,3 @@ nav {
 .social-links a:hover {
     color: #f7df1e;
 }
-
-footer {
-    background-color: #222;
-    color: #aaa;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.8rem;
-}

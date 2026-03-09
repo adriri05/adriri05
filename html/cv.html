@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" type="image/png" href="../assets/pagepicture.png" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
         rel="stylesheet" />
@@ -92,6 +93,13 @@
                                 class="text-sm hover:text-primary transition-colors">linkedin.com/in/adrianrodrigueziban/</a>
                         </div>
                     </div>
+                    <!-- Certificates Button -->
+                    <div class="w-full pt-8">
+                        <a href="certificados.html" class="flex items-center justify-center gap-2 w-full px-4 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors shadow-sm text-sm font-semibold">
+                            <span class="material-symbols-outlined text-lg">workspace_premium</span>
+                            <span id="cv-certificates-btn">View Certificates</span>
+                        </a>
+                    </div>
                     <!-- Hard Skills Section -->
                     <div class="w-full pt-8">
                         <h3
@@ -171,13 +179,13 @@
                         <!-- Experience Entry 1 -->
                         <div class="relative flex items-start justify-between md:justify-normal group pl-12">
                             <div
-                                class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full border border-white dark:border-slate-900 bg-slate-100 dark:bg-slate-800 text-primary shadow shrink-0 z-10">
+                                class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full border border-white dark:border-slate-900 bg-slate-100 dark:bg-slate-800 text-primary shadow shrink-0 z-10 transition-colors group-hover:bg-primary/10">
                                 <span class="material-symbols-outlined text-base">rocket_launch</span>
                             </div>
-                            <div
-                                class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+                            <a href="4space.html"
+                                class="block w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm hover:border-primary/50 dark:hover:border-primary/50 transition-colors">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 id="cv-work-1-role" class="font-bold text-slate-900 dark:text-white">Technology Department</h4>
+                                    <h4 id="cv-work-1-role" class="font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Technology Department</h4>
                                     <span
                                         id="cv-work-1-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2023 - 2026</span>
                                 </div>
@@ -185,19 +193,19 @@
                                 <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc pl-4">
                                     <li id="cv-work-1-desc">After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project.</li>
                                 </ul>
-                            </div>
+                            </a>
                         </div>
 
                         <!-- Experience Entry 2 -->
                         <div class="relative flex items-start justify-between md:justify-normal group pl-12">
                             <div
-                                class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full border border-white dark:border-slate-900 bg-slate-100 dark:bg-slate-800 text-primary shadow shrink-0 z-10">
+                                class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full border border-white dark:border-slate-900 bg-slate-100 dark:bg-slate-800 text-primary shadow shrink-0 z-10 transition-colors group-hover:bg-primary/10">
                                 <span class="material-symbols-outlined text-base">support_agent</span>
                             </div>
-                            <div
-                                class="w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+                            <a href="becario.html"
+                                class="block w-full p-4 rounded-xl border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm hover:border-primary/50 dark:hover:border-primary/50 transition-colors">
                                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                                    <h4 id="cv-work-2-role" class="font-bold text-slate-900 dark:text-white">Technical Support Intern</h4>
+                                    <h4 id="cv-work-2-role" class="font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">IT Services Intern</h4>
                                     <span
                                         id="cv-work-2-date" class="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">2025 - PRESENT</span>
                                 </div>
@@ -205,7 +213,7 @@
                                 <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc pl-4">
                                     <li id="cv-work-2-desc">Support in managing and maintaining the technology infrastructure to ensure users' daily operations.</li>
                                 </ul>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -256,12 +264,6 @@
                 </section>
             </main>
         </div>
-        <!-- Footer -->
-        <footer
-            class="bg-slate-50 dark:bg-slate-800/80 px-12 py-6 border-t border-slate-200 dark:border-slate-800 text-center">
-            <p id="cv-footer" class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Adrián Rodríguez • Software
-                Developer • 2024</p>
-        </footer>
     </div>
     <script src="../js/translations.js"></script>
 </body>

@@ -28,7 +28,7 @@
             },
         }
     </script>
-    <title>New Project - Adrián Rodríguez</title>
+    <title>IT Services Intern - Adrián Rodríguez</title>
 </head>
 
 <body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
@@ -58,31 +58,32 @@
         <div class="mb-12">
             <div class="flex flex-col gap-2 mb-6">
                 <!-- Project Category or Organization -->
-                <span class="text-primary font-bold tracking-wide uppercase text-sm">CATEGORY</span>
+                <span id="proj2-category-label" class="text-primary font-bold tracking-wide uppercase text-sm">Experience</span>
                 <!-- Project Title ID for Translation -->
-                <h1 id="project-new-title" class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">Project Title</h1>
+                <h1 id="project-intern-title" class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">IT Services Intern</h1>
             </div>
             
             <!-- Project Image -->
-            <div class="w-full aspect-video rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 shadow-xl mb-8">
-                <!-- Replace src with your project image -->
-                <img src="https://placehold.co/1200x675" alt="Project Image" class="w-full h-full object-cover">
+            <div class="w-full aspect-video rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 shadow-xl mb-8 flex items-center justify-center relative">
+                <div class="absolute inset-0 flex items-center justify-center bg-primary/10 w-full h-full">
+                    <span class="material-symbols-outlined text-9xl text-primary opacity-50">support_agent</span>
+                </div>
             </div>
 
             <div class="prose dark:prose-invert max-w-none">
-                <h2 id="project-about-title" class="text-2xl font-bold mb-4 text-slate-900 dark:text-white">About the Project</h2>
+                <h2 id="project-intern-about-title" class="text-2xl font-bold mb-4 text-slate-900 dark:text-white">About the Role</h2>
                 <!-- Project Description ID for Translation -->
-                <p id="project-new-desc" class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                    Description of the project goes here. Explain what it is, your role, and the technologies used.
+                <p id="project-intern-full-desc" class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                    As an IT Services Intern at the Polytechnic School of Engineering of Gijón, my primary role is to provide essential technical support. This involves managing and maintaining the technology infrastructure to ensure that smooth and seamless daily operations are maintained for all users. I assist in diagnosing issues, setting up hardware and software, and ensuring that the overall technological environment is reliable.
                 </p>
             </div>
         </div>
 
         <!-- Progress Section -->
         <div class="border-t border-slate-200 dark:border-slate-800 pt-12">
-            <h2 id="project-progress-title" class="text-2xl font-bold mb-8 flex items-center gap-3">
+            <h2 class="text-2xl font-bold mb-8 flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary">timeline</span>
-                <span id="progress-heading">Progress Updates</span>
+                <span id="intern-progress-heading">Key Responsibilities</span>
             </h2>
 
             <div class="relative pl-8 border-l-2 border-slate-200 dark:border-slate-700 space-y-12">
@@ -93,10 +94,10 @@
                         <div class="w-4 h-4 rounded-full bg-primary ring-4 ring-primary/20"></div>
                     </div>
                     <div class="flex flex-col gap-2">
-                        <span class="text-xs font-bold text-primary uppercase tracking-wider">Date</span>
-                        <h3 id="project-update-1-title" class="text-xl font-bold text-slate-900 dark:text-white">Update Title</h3>
-                        <p id="project-update-1-desc" class="text-slate-600 dark:text-slate-400">
-                           Details about the update.
+                        <span id="intern-update-date-1" class="text-xs font-bold text-primary uppercase tracking-wider">Present</span>
+                        <h3 id="intern-update-1-title" class="text-xl font-bold text-slate-900 dark:text-white">Tech Support</h3>
+                        <p id="intern-update-1-desc" class="text-slate-600 dark:text-slate-400">
+                           First point of contact for resolving daily hardware and software issues for staff and students.
                         </p>
                     </div>
                 </div>

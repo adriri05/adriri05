@@ -15,9 +15,8 @@ const translations = {
         "proj1-title": "4Space",
         "proj1-desc": "After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project in the Technology Department.",
         "proj2-category": "Experience",
-        "proj2-title": "Technical Support Intern",
+        "proj2-title": "IT Services Intern",
         "proj2-desc": "Support in managing and maintaining the technology infrastructure to ensure users' daily operations.",
-        "footer-text": "© 2024 Adrián Rodríguez. All rights reserved.",
 
         // CV Page
         "cv-header": "Curriculum Vitae",
@@ -33,6 +32,9 @@ const translations = {
         "cv-skills-5": "IT Support",
         "cv-skills-6": "Basic Electronics",
         "cv-languages-title": "Languages",
+        "cv-certificates-btn": "View Certificates",
+        "cert-dev-title": "Under Development",
+        "cert-dev-desc": "I am currently organizing and uploading my certificates. Please check back soon!",
         "cv-lang-spanish": "Spanish",
         "cv-lang-native": "Native",
         "cv-lang-english": "English",
@@ -43,7 +45,7 @@ const translations = {
         "cv-work-1-date": "2023 - 2026",
         "cv-work-1-place": "4SPACE",
         "cv-work-1-desc": "After participating in the drone workshops, I actively collaborated in designing and developing a space rover as a team project.",
-        "cv-work-2-role": "Technical Support Intern",
+        "cv-work-2-role": "IT Services Intern",
         "cv-work-2-date": "2025 - PRESENT",
         "cv-work-2-place": "POLYTECHNIC SCHOOL OF ENGINEERING OF GIJÓN",
         "cv-work-2-desc": "Support in managing and maintaining the technology infrastructure to ensure users' daily operations.",
@@ -54,7 +56,6 @@ const translations = {
         "cv-edu-2-role": "Computer Engineering in Information Technologies",
         "cv-edu-2-date": "2023 - PRESENT",
         "cv-edu-2-place": "UNIVERSITY OF OVIEDO",
-        "cv-footer": "Adrián Rodríguez • Software Developer • 2024",
 
         // Categories
         "category-experience": "Experience",
@@ -80,7 +81,17 @@ const translations = {
         "rover-update-4-desc": "We are introduced to the Mars rover creation project and the opportunity to participate in the European Rover Challenge.",
         "rover-update-date-5": "September 2023",
         "rover-update-5-title": "Drone Workshops",
-        "rover-update-5-desc": "First year participating in the tenth drone workshops, where we started learning basic electronics in what used to be Drone4Students."
+        "rover-update-5-desc": "First year participating in the tenth drone workshops, where we started learning basic electronics in what used to be Drone4Students.",
+
+        // Project Pages - IT Services Intern
+        "proj2-category-label": "Experience",
+        "project-intern-title": "IT Services Intern",
+        "project-intern-about-title": "About the Role",
+        "project-intern-full-desc": "As an IT Services Intern at the Polytechnic School of Engineering of Gijón, my primary role is to provide essential technical support. This involves managing and maintaining the technology infrastructure to ensure that smooth and seamless daily operations are maintained for all users. I assist in diagnosing issues, setting up hardware and software, and ensuring that the overall technological environment is reliable.",
+        "intern-progress-heading": "Key Responsibilities",
+        "intern-update-date-1": "Present",
+        "intern-update-1-title": "Tech Support",
+        "intern-update-1-desc": "First point of contact for resolving daily hardware and software issues for staff and students."
     },
     "es": {
         // Index Page
@@ -98,9 +109,8 @@ const translations = {
         "proj1-title": "4Space",
         "proj1-desc": "Después de participar en los talleres de drones, colaboré activamente en el diseño y desarrollo de un rover espacial como proyecto en equipo en el Departamento de Tecnología.",
         "proj2-category": "Experiencia",
-        "proj2-title": "Becario de Soporte Técnico",
+        "proj2-title": "Becario de Servicios Informáticos",
         "proj2-desc": "Apoyo en la gestión y mantenimiento de la infraestructura tecnológica para garantizar las operaciones diarias de los usuarios.",
-        "footer-text": "© 2024 Adrián Rodríguez. Todos los derechos reservados.",
 
         // CV Page
         "cv-header": "Curriculum Vitae",
@@ -116,6 +126,9 @@ const translations = {
         "cv-skills-5": "Soporte TI",
         "cv-skills-6": "Electrónica básica",
         "cv-languages-title": "Idiomas",
+        "cv-certificates-btn": "Ver Certificados",
+        "cert-dev-title": "En Desarrollo",
+        "cert-dev-desc": "Actualmente estoy organizando y subiendo mis certificados. ¡Vuelve pronto!",
         "cv-lang-spanish": "Español",
         "cv-lang-native": "Nativo",
         "cv-lang-english": "Inglés",
@@ -126,7 +139,7 @@ const translations = {
         "cv-work-1-date": "2023 - 2026",
         "cv-work-1-place": "4SPACE",
         "cv-work-1-desc": "Después de participar en los talleres de drones, colaboré activamente en el diseño y desarrollo de un rover espacial como proyecto en equipo.",
-        "cv-work-2-role": "Becario de Soporte Técnico",
+        "cv-work-2-role": "Becario de Servicios Informáticos",
         "cv-work-2-date": "2025 - ACTUALIDAD",
         "cv-work-2-place": "ESCUELA POLITÉCNICA DE INGENIERÍA DE GIJÓN",
         "cv-work-2-desc": "Apoyo en la gestión y mantenimiento de la infraestructura tecnológica para garantizar las operaciones diarias de los usuarios.",
@@ -137,7 +150,6 @@ const translations = {
         "cv-edu-2-role": "Ingeniería Informática en Tecnologías de la Información",
         "cv-edu-2-date": "2023 - ACTUALIDAD",
         "cv-edu-2-place": "UNIVERSIDAD DE OVIEDO",
-        "cv-footer": "Adrián Rodríguez • Desarrollador de Software • 2024",
 
         // Categories
         "category-experience": "Experiencia",
@@ -163,7 +175,17 @@ const translations = {
         "rover-update-4-desc": "Nos presentan el proyecto de la creación de un rover marciano y la posibilidad de participar en el European Rover Challenge.",
         "rover-update-date-5": "Septiembre 2023",
         "rover-update-5-title": "Jornadas de drones",
-        "rover-update-5-desc": "Primer año donde participa en la decima jornadas de dones y empezamos a aprender electronica básica en lo que antes era Drone4Students."
+        "rover-update-5-desc": "Primer año donde participa en la decima jornadas de dones y empezamos a aprender electronica básica en lo que antes era Drone4Students.",
+
+        // Project Pages - IT Services Intern
+        "proj2-category-label": "Experiencia",
+        "project-intern-title": "Becario de Servicios Informáticos",
+        "project-intern-about-title": "Sobre el Rol",
+        "project-intern-full-desc": "Como Becario de Servicios Informáticos en la Escuela Politécnica de Ingeniería de Gijón, mi función principal es proporcionar soporte técnico fundamental. Esto implica gestionar y mantener la infraestructura tecnológica para asegurar que las operaciones diarias de todos los usuarios se desarrollen de manera fluida y sin interrupciones. Colaboro en el diagnóstico de problemas, configuración de hardware y software, y en garantizar la fiabilidad del entorno tecnológico general.",
+        "intern-progress-heading": "Responsabilidades Clave",
+        "intern-update-date-1": "Actualidad",
+        "intern-update-1-title": "Soporte Técnico",
+        "intern-update-1-desc": "Primer punto de contacto para resolver problemas diarios de hardware y software tanto para el personal como para los estudiantes."
     }
 };
 

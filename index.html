@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" type="image/png" href="assets/pagepicture.png" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet" />
@@ -146,35 +147,25 @@
                                 </div>
                             </a>
                             <!-- Project Card 2 -->
-                            <div class="group flex flex-col gap-4">
+                            <a href="html/becario.html" class="group flex flex-col gap-4 block hover:opacity-95 transition-opacity">
                                 <div
                                     class="h-64 rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 relative">
-                                    <div class="absolute inset-0 flex items-center justify-center bg-primary/10 w-full h-full">
+                                    <div class="absolute inset-0 flex items-center justify-center bg-primary/10 w-full h-full transition-transform duration-500 group-hover:scale-105">
                                         <span
                                             class="material-symbols-outlined text-6xl text-primary opacity-50">support_agent</span>
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-1">
                                     <span id="proj2-category" class="text-primary text-sm font-bold tracking-wide uppercase">Experience</span>
-                                    <h4 id="proj2-title" class="text-xl font-bold">Technical Support Intern</h4>
-                                    <span class="text-slate-600 dark:text-slate-400 text-xs font-semibold mb-1">Polytechnic School of Engineering of Gijón</span>
+                                    <h4 id="proj2-title" class="text-xl font-bold">IT Services Intern</h4>
                                     <p id="proj2-desc" class="text-slate-500 text-sm line-clamp-3">Support in managing and maintaining
                                         the technology infrastructure to ensure users' daily operations.</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </section>
                 </div>
             </main>
-            <!-- Footer -->
-            <footer class="mt-auto py-12 px-6 border-t border-primary/10 bg-white dark:bg-background-dark">
-                <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-                    <div class="flex items-center gap-2">
-                        <span class="font-bold">Adrián Rodríguez</span>
-                    </div>
-                    <p id="footer-text" class="text-slate-500 text-sm">© 2024 Adrián Rodríguez. All rights reserved.</p>
-                </div>
-            </footer>
         </div>
     </div>
     <script src="js/translations.js"></script>
