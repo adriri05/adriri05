@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="README.md">🇬🇧 English</a> · <a href="README.es.md">🇪🇸 Español</a>
+<a href="README.md"><img src="https://img.shields.io/badge/English-2c5364?style=flat-square" alt="English" /></a> <a href="README.es.md"><img src="https://img.shields.io/badge/Español-555555?style=flat-square" alt="Español" /></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Adri%C3%A1n%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering&descAlignY=60&descSize=20" alt="header" />
 
