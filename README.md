@@ -39,14 +39,8 @@
 
 <div align="center">
 
-[![HandBridge](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=HandBridge&theme=tokyonight&hide_border=true)](https://github.com/adriri05/HandBridge)
-[![MechaFactu](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=MechaFactu&theme=tokyonight&hide_border=true)](https://github.com/adriri05/MechaFactu)
-
-[![BinderDex](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=BinderDex&theme=tokyonight&hide_border=true)](https://github.com/adriri05/BinderDex)
-[![MetricCourt](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=MetricCourt&theme=tokyonight&hide_border=true)](https://github.com/adriri05/MetricCourt)
-
-[![MyScoreboard](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=MyScoreboard&theme=tokyonight&hide_border=true)](https://github.com/adriri05/MyScoreboard)
-[![GIITIN](https://github-readme-stats.vercel.app/api/pin/?username=adriri05&repo=GIITIN&theme=tokyonight&hide_border=true)](https://github.com/adriri05/GIITIN)
+[![HandBridge](https://github-readme-stats-fast.vercel.app/api/pin?username=adriri05&repo=HandBridge&theme=tokyonight&hide_border=true)](https://github.com/adriri05/HandBridge)
+[![MetricCourt](https://github-readme-stats-fast.vercel.app/api/pin?username=adriri05&repo=MetricCourt&theme=tokyonight&hide_border=true)](https://github.com/adriri05/MetricCourt)
 
 </div>
 
@@ -54,8 +48,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=adriri05&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adriri05&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="170" src="https://github-readme-stats-fast.vercel.app/api?username=adriri05&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=adriri05&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com?user=adriri05&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
