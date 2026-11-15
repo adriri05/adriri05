@@ -2,7 +2,7 @@
 
 <a href="README.md"><img src="https://img.shields.io/badge/English-2c5364?style=flat-square" alt="English" /></a> <a href="README.es.md"><img src="https://img.shields.io/badge/Español-555555?style=flat-square" alt="Español" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Adri%C3%A1n%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering&descAlignY=60&descSize=20" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Adri%C3%A1n%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineer&descAlignY=60&descSize=20" alt="header" />
 
 <a href="https://github.com/adriri05"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=520&lines=Hi!+I'm+Adri%C3%A1n+%F0%9F%91%8B;Computer+Engineering;I+build+things+and+learn+new+tech" alt="Typing SVG" /></a>
 
