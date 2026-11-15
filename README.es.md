@@ -2,7 +2,7 @@
 
 <a href="README.md"><img src="https://img.shields.io/badge/English-555555?style=flat-square" alt="English" /></a> <a href="README.es.md"><img src="https://img.shields.io/badge/Español-2c5364?style=flat-square" alt="Español" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Adri%C3%A1n%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Ingenier%C3%ADa%20Inform%C3%A1tica&descAlignY=60&descSize=20" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Adri%C3%A1n%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Ingeniero%20Inform%C3%A1tico&descAlignY=60&descSize=20" alt="header" />
 
 <a href="https://github.com/adriri05"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=520&lines=%C2%A1Hola!+Soy+Adri%C3%A1n+%F0%9F%91%8B;Ingenier%C3%ADa+Inform%C3%A1tica;Construyo+cosas+y+aprendo+nuevas+tecnolog%C3%ADas" alt="Typing SVG" /></a>
 
