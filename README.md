@@ -14,7 +14,7 @@
 
 ---
 
-## 🧐 About me
+## 🧐 About me.
 
 - 🔭 Currently working on **interesting projects** (see below)
 - 🌱 I enjoy learning new things: web, mobile, embedded and reverse engineering
